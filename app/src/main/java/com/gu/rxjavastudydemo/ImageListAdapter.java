@@ -25,6 +25,6 @@ public class ImageListAdapter extends MyBaseAdapter<String> {
      */
     @Override
     public void setConvert(BaseViewHolder viewHolder, String s) {
-
+        viewHolder.setFileNormalImg(R.id.itemIV,s);
     }
 }

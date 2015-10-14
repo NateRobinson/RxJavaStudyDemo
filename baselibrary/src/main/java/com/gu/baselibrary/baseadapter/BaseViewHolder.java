@@ -185,5 +185,15 @@ public class BaseViewHolder {
         return this;
     }
 
+    /**
+     * 展示正常本地图片
+     */
+    public BaseViewHolder setFileNormalImg(int viewId, String fileUrl) {
+        ImageView iv = getView(viewId);
+        DrawableUtils.displayLocImg(iv, fileUrl);
+        return this;
+    }
+
+
     // TODO 可以根据自己的需要编写更多适用的方法。。。
 }
